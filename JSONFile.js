@@ -5,7 +5,7 @@ const path = require("path");
 // https://nodejs.org/api/util.html
 const util = require("util");
 
-const FILE_PATH = path.join(__dirname, "People.json");
+const FILE_PATH = path.join(__dirname, "People.json");  // sets variable to be the directory path
 // const LOG_FILE_PATH = path.join(__dirname, "debug.log")
 // const LOG_FILESTREAM = fs.createWriteStream(LOG_FILE_PATH, {flags : "w"});
 

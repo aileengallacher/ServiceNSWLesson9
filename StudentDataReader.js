@@ -9,7 +9,7 @@ class StudentDataReader {     // part of the data access layer the other 2 class
     get fileArray() {     // retrieves the file
         return JSON.parse(fs.readFileSync(this.fileName).toString()).map(studentRaw => new Student(
             studentRaw.firstName,
-            studentRaw.lastName,               // adding this makes the output a Student rahter than just an array
+            studentRaw.lastName,               // adding this makes the output a Student rather than just an array
             studentRaw.age,
             studentRaw.grades,
             studentRaw.teacherId,
